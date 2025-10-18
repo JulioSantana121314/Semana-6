@@ -4,6 +4,10 @@
   --ancho: 900px;
   --primario: #e8505b;
   --secundario: #455a64;
+  --negro: #000;
+  --blanco: #ffffff;
+  --grisClaro: #eceeef;
+
   font-family: 'Roboto', sans-serif;
 }
 
@@ -101,12 +105,14 @@ label{
 }
 
 .h2form{
+  font-size: 1.65rem;
   text-align: center;
   margin-bottom: 3rem;
   color: #fefefe;
 }
 
 .h2como{
+  font-size: 1.65rem;
   color: #fefefe;
   text-align: center;
   padding-top: 2rem;
@@ -148,6 +154,7 @@ h3{
 }
 
 .h2test{
+  font-size: 1.65rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -164,7 +171,6 @@ h3{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
-  height: 15rem;
 }
 .testimonio{
   background-color: var(--secundario);
@@ -232,9 +238,73 @@ h3{
   grid-column: 3 / 5;
   grid-row: 2;
 }
+
+.favoritos{
+  background-color: var(--grisClaro);
+  margin-top: 3rem;
+}
+
+.h2favo{
+  font-size: 1.65rem;
+  color: var(--secundario);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+.restaurantesgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: var(--ancho);
+  margin-inline: auto;
+  gap: 2rem;
+}
+
+.restaurante{
+  display: flex;
+  background-color: #fefefe;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: center;
+  box-shadow: 0 0 1rem 0.1rem #bebebe80;
+  border-radius: 0.5rem;
+}
+
+.logofav{
+  width: 100%;
+}
+.estrellasfav{
+  width: 50%;
+}
+
+.h4favo{
+  color: var(--primario);
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.parrfavo{
+  color: var(--secundario);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.logofavcont{
+
+}
+
+
+
+
+
+
 /* UTILS */
 
 .f-1{
   flex: 1;
+}
+
+.f-3{
+  flex: 3;
 }
 
