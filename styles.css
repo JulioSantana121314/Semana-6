@@ -242,6 +242,7 @@ h3{
 .favoritos{
   background-color: var(--grisClaro);
   margin-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .h2favo{
