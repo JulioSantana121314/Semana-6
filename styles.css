@@ -7,7 +7,6 @@
   --negro: #000;
   --blanco: #ffffff;
   --grisClaro: #eceeef;
-
   font-family: 'Roboto', sans-serif;
 }
 
@@ -71,7 +70,6 @@ header{
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  
 }
 
 .searchformitem{
