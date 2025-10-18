@@ -290,13 +290,45 @@ h3{
   line-height: 1.75;
 }
 
-.logofavcont{
-
+.ganadinero{
+  padding-bottom: 2rem;
 }
 
+.h2gana{
+  text-align: center;
+  color: var(--secundario);
+  margin: 2rem 0 2rem 0;
+  font-size: 1.65rem;
+}
 
+.maingana{
+  width: var(--ancho);
+  margin-inline: auto;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 
+.ganaimg{
+  width: 100%;
+}
 
+.parrgana{
+  color: var(--secundario);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.ganabutton{
+  background-color: var(--primario);
+  border: none;
+  color: #fefefe;
+  padding: 0.5rem 1.35rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
 
 
 /* UTILS */
