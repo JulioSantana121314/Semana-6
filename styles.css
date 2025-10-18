@@ -330,6 +330,57 @@ h3{
 }
 
 
+footer{
+  background-color: var(--secundario);
+}
+
+.footermain{
+  width: var(--ancho);
+  margin-inline: auto;
+  padding: 1rem 0 1.75rem;
+  align-items: center;
+  color: #fefefe;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer_h2{
+  padding: 1rem 0 1rem 0;
+}
+
+.footer_p{
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.footer_lista{
+  list-style: none;
+  padding: 0;
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.footerlink{
+  text-decoration: none;
+  color: #fefefe;
+  align-items: start;
+}
+
+.derechos_p{
+  color: #fefefe;
+  text-align: center;
+  align-items: center;
+  background-color: var(--primario);
+  padding: 1rem 0;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+
+
 /* UTILS */
 
 .f-1{
