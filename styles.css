@@ -1,0 +1,156 @@
+*{
+  box-sizing: inherit;
+  margin: 0;
+  --ancho: 900px;
+  --primario: #e8505b;
+  --secundario: #455a64;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.logodiv{
+  width: 20rem;
+}
+
+header{
+  display: flex;
+  height: 5rem;
+  width: var(--ancho);
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.nav-lista{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.botón-reg{
+  background-color: var(--primario);
+  padding: 0.5rem 1rem;
+  color: #fefefe;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 800;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.form-y-png{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-inline: auto;
+  width: var(--ancho);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.encuentra-y-pide{
+  background-color: var(--primario);
+  justify-content: space-evenly;
+  color: #fefefe;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.searchformitem{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.forminput{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0.4rem 0 0.4rem 0;
+  box-sizing: border-box;
+  font-size: 0.5rem;
+}
+
+label{
+  font-size: 0.75rem;
+}
+
+.formbutton{
+  width: 100%;
+  border: none;
+  background-color: var(--secundario);
+  padding: 0.5rem 0;
+  color: #fefefe;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+
+}
+
+.h2form{
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #fefefe;
+}
+
+.h2como{
+  color: #fefefe;
+  text-align: center;
+  padding-top: 2rem;
+}
+.fotorepartidor{
+  padding-top: 2rem;
+}
+
+.repartidordiv{
+  justify-content: center;
+}
+
+
+.cómo-funciona{
+  background-color: var(--primario);
+}
+
+h3{
+  text-align: center;
+  color: #fefefe;
+  font-size: 0.75rem;
+}
+
+.listapasos{
+  display: flex;
+  width: var(--ancho);
+  margin-inline: auto;
+  height: 500px;
+  justify-content: center;
+  padding: 0;
+}
+
+.paso{
+  height: 100%;
+}
+
+.comoheader{
+  margin-bottom: 2rem;
+}
+
+
+/* UTILS */
+
+.f-1{
+  flex: 1;
+}
+
