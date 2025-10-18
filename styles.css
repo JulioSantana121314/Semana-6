@@ -141,6 +141,7 @@ h3{
   height: 500px;
   justify-content: center;
   padding: 0;
+  list-style: none;
 }
 
 .paso{
